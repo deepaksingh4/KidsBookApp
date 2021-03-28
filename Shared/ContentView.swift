@@ -45,10 +45,6 @@ struct ContentView: View {
                             .padding(.top,20)
                         
                     }
-                    
-                    
-                    
-                    
                 }
             }.frame(maxWidth: .infinity, maxHeight: .infinity)
         }
@@ -146,7 +142,7 @@ struct ListCard : View {
     var width : CGFloat = 350
     var body : some View {
         ZStack{
-//            Rectangle().background(Color.white).frame(width:width).foregroundColor(.white)
+            //            Rectangle().background(Color.white).frame(width:width).foregroundColor(.white)
             HStack(alignment:.top){
                 Image(coverImage).resizable().frame(width:60, height: 80).aspectRatio(contentMode: .fill).cornerRadius(7.0)
                 VStack(alignment:.leading){
@@ -190,26 +186,18 @@ struct SpringWithImage: ButtonStyle {
     }
 }
 
-struct FancyButtonStyle : ButtonStyle{
-    var bgColor : Color
-    func makeBody(configuration: Configuration) -> some View {
-        ZStack{
-            
-        }
-    }
-}
-
 
 struct RoundedCorner: Shape {
-
+    
     var radius: CGFloat = .infinity
     var corners: UIRectCorner = .allCorners
-
+    
     func path(in rect: CGRect) -> Path {
         let path = UIBezierPath(roundedRect: rect, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
         return Path(path.cgPath)
     }
 }
+
 extension View {
     func cornerRadius(_ radius: CGFloat, corners: UIRectCorner) -> some View {
         clipShape( RoundedCorner(radius: radius, corners: corners) )
