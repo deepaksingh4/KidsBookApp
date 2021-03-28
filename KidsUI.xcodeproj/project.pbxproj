@@ -11,6 +11,8 @@
 		E25CDB86260E682A0056BB26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25CDB72260E68250056BB26 /* ContentView.swift */; };
 		E25CDB88260E682A0056BB26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25CDB73260E68290056BB26 /* Assets.xcassets */; };
 		E25CDB95261028EF0056BB26 /* CardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25CDB94261028EF0056BB26 /* CardManager.swift */; };
+		E25CDB9D2610DF550056BB26 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = E25CDB9B2610DF550056BB26 /* home.png */; };
+		E25CDB9E2610DF550056BB26 /* App Home.png in Resources */ = {isa = PBXBuildFile; fileRef = E25CDB9C2610DF550056BB26 /* App Home.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E25CDB82260E682A0056BB26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E25CDB83260E682A0056BB26 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		E25CDB94261028EF0056BB26 /* CardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardManager.swift; sourceTree = "<group>"; };
+		E25CDB9B2610DF550056BB26 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		E25CDB9C2610DF550056BB26 /* App Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Home.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		E25CDB6B260E68240056BB26 = {
 			isa = PBXGroup;
 			children = (
+				E25CDB9A2610DF380056BB26 /* Screenshots */,
 				E25CDB70260E68250056BB26 /* Shared */,
 				E25CDB7A260E682A0056BB26 /* iOS */,
 				E25CDB81260E682A0056BB26 /* macOS */,
@@ -79,6 +84,15 @@
 				E25CDB83260E682A0056BB26 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		E25CDB9A2610DF380056BB26 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				E25CDB9B2610DF550056BB26 /* home.png */,
+				E25CDB9C2610DF550056BB26 /* App Home.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25CDB9E2610DF550056BB26 /* App Home.png in Resources */,
 				E25CDB88260E682A0056BB26 /* Assets.xcassets in Resources */,
+				E25CDB9D2610DF550056BB26 /* home.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
