@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D424809F-3433-408D-AFE2-81629BB04802"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF095C8D-C9B8-42CF-B90B-BD81A12464DC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "BF095C8D-C9B8-42CF-B90B-BD81A12464DC - bee64ecd4415f300"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;KidsUI.Book&gt;, Swift.Int, SwiftUI.HStack&lt;KidsUI.ListCard&gt;&gt;&gt;)&gt; in KidsUI.BodyView.body.getter : some"
+                  moduleName = "KidsUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Projects/iOS/KidsUI/Shared/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "965">
+               </Location>
+               <Location
+                  uuid = "BF095C8D-C9B8-42CF-B90B-BD81A12464DC - 41592e47e3767812"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (KidsUI.Book) -&gt; KidsUI.ListCard in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.List&lt;Swift.Never, SwiftUI.ForEach&lt;Swift.Array&lt;KidsUI.Book&gt;, Swift.Int, SwiftUI.HStack&lt;KidsUI.ListCard&gt;&gt;&gt;)&gt; in KidsUI.BodyView.body.getter : some"
+                  moduleName = "KidsUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Projects/iOS/KidsUI/Shared/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "42">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
